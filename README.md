@@ -1,47 +1,4 @@
-Good. I can see the old forked repo clearly. Here's the complete plan — new repo setup + full README.
-
-Step 1 — Create a Brand New GitHub Repo
-Do NOT use the old forked repo. Create a fresh one.
-
-Go to github.com/new
-Repository name: DocMind
-Description: Production RAG system with hybrid retrieval, hallucination detection, and RAGAS evaluation — Faithfulness 1.0, Overall 0.845
-Public
-Do NOT initialize with README (you'll push your own)
-Click Create repository
-
-
-Step 2 — Set Up Git in Your Local Project
-In your terminal inside the docmind/ folder:
-bashgit init
-git add .
-git commit -m "Initial commit: DocMind production RAG system"
-git branch -M main
-git remote add origin https://github.com/Ahamed-h/DocMind.git
-git push -u origin main
-
-Step 3 — Set Up .gitignore First
-Make sure this is in your .gitignore before pushing:
-.env
-.venv/
-venv/
-__pycache__/
-*.pyc
-*.pkl
-*.faiss
-vector_store/
-*.log
-.DS_Store
-core/s.py
-The .pkl and .faiss files must NOT be committed — they're too large and contain embedded data from your documents.
-
-Step 4 — Add GitHub Repo Topics
-After pushing, go to your repo page, click the gear ⚙️ next to About and add these topics:
-rag retrieval-augmented-generation langchain faiss bm25 hybrid-search reranking ragas gemini streamlit python nlp document-qa hallucination-detection
-
-Step 5 — README.md
-Paste this entire README into your README.md file:
-markdown# 📄 DocMind — Enterprise Document Intelligence
+# 📄 DocMind — Enterprise Document Intelligence
 
 > A production-grade RAG system that answers questions from your documents
 > with zero hallucination, grounded citations, and measurable accuracy.
