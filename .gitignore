@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.faiss
+vector_store/
+*.log
+.DS_Store
+core/s.py
