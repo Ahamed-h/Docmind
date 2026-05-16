@@ -3,7 +3,7 @@
 > A production-grade RAG system that answers questions from your documents
 > with zero hallucination, grounded citations, and measurable accuracy.
 
-🔴 **Live Demo:** [Add Streamlit URL here after deployment]
+🔴 **Live Demo:** [Under deployment]
 📁 **GitHub:** https://github.com/Ahamed-h/DocMind
 
 ---
